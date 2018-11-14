@@ -13,7 +13,7 @@ npx install-peerdeps editor-tools-scalefast --global #global installation (requi
 npx install-peerdeps editor-tools-scalefast # local installation
 ```
 
-We use [install-peerdeps](https://www.npmjs.com/package/install-peerdeps), this way eslint and its plugins are installed as normal packages as IDEs expect them to be installed.
+We use [install-peerdeps](https://www.npmjs.com/package/install-peerdeps), this way eslint and its plugins are installed like normal packages instead of dependencies of our package, some IDEs extensions depend on eslint being installed this way.
 
 It also simplifies having multiple packages and configurations globally installed.
 
