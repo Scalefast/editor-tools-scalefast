@@ -1,5 +1,7 @@
 # Scalefast editor tools
 
+[![npm version](https://badge.fury.io/js/editor-tools-scalefast.svg)](https://badge.fury.io/js/editor-tools-scalefast)
+
 Tools that help developing code in Scalefast and are easy can be integrated in Sublime, VS Code, Atom and Vim in Windows and Linux.
 
 In this first versions it only includes the eslint linter.
