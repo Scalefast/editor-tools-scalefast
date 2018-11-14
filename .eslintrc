@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "sourceType": "script",
+        "ecmaVersion": 6
+    },
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "extends": "eslint-config-scalefast",
+    "overrides": [{
+        "files": [ "*.js" ],
+        "excludedFiles": "*.min.js"
+    }]
+}
