@@ -9,8 +9,8 @@ In this first versions it only includes the eslint linter.
 Installation:
 
 ```sh
-npx install-peerdeps eslint-config-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
-npx install-peerdeps eslint-config-scalefast # local installation
+npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
+npx install-peerdeps editor-tools-scalefast # local installation
 ```
 
 We use [install-peerdeps](https://www.npmjs.com/package/install-peerdeps), this way eslint and its plugins are installed as normal packages as IDEs expect them to be installed.
