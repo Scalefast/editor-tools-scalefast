@@ -9,8 +9,8 @@ In this first versions it only includes the eslint linter.
 Installation:
 
 ```sh
-npx install-peerdeps eslint-config-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
-npx install-peerdeps eslint-config-scalefast # local installation
+npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
+npx install-peerdeps editor-tools-scalefast # local installation
 ```
 
 We use [install-peerdeps](https://www.npmjs.com/package/install-peerdeps), this way eslint and its plugins are installed as normal packages as IDEs expect them to be installed.
@@ -49,4 +49,4 @@ Should use [syntastic](https://github.com/vim-syntastic/syntastic) but not teste
 
 To use this package in a project we need to create a [eslint configuration file](https://eslint.org/docs/user-guide/configuring) in the project path or point our IDE extension to the configuration file.
 
-We include a sample .eslintrc configuration file in root of this package. Our configuration extends [eslint-config-scalefast](https://www.npmjs.com/package/eslint-config-airbnb) and will inherit all the rules defined in that package. Specific .eslintrc files per project are desirable so certain rules can be adapted to each project.
+We include a sample .eslintrc configuration file in root of this package. Our configuration extends [eslint-config-scalefast](https://www.npmjs.com/package/eslint-config-scalefast) and will inherit all the rules defined in that package. Specific .eslintrc files per project are desirable so certain rules can be adapted to each project.

@@ -1,6 +1,6 @@
 {
   "name": "editor-tools-scalefast",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Tools that help developing code in Scalefast and are easy to integrate in Sublime, Vscode, Atom and Vim.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
