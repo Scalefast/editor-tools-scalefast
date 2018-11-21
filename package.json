@@ -19,7 +19,9 @@
   "peerDependencies": {
     "eslint": "^5.8.0",
     "eslint-config-scalefast": "*",
-    "eslint-plugin-promise": "^4.0.1"
+    "eslint-plugin-promise": "^4.0.1",
+	"stylelint": "^9.8.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "bugs": {
     "url": "https://github.com/scalefast/editor-tools-scalefast/issues"
