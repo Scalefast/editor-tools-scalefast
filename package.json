@@ -1,6 +1,6 @@
 {
   "name": "editor-tools-scalefast",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tools that help developing code in Scalefast and are easy to integrate in Sublime, Vscode, Atom and Vim.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,7 @@
     "eslint-config-scalefast": "*",
     "eslint-plugin-promise": "^4.0.1",
 	"stylelint": "^9.8.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-scalefast": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/scalefast/editor-tools-scalefast/issues"
