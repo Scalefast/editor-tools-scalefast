@@ -6,7 +6,7 @@ Tools that help developing code in Scalefast and are easy can be integrated in S
 
 In this first versions it only includes the eslint linter.
 
-## Installation:
+## Installation
 
 ```sh
 npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
@@ -32,7 +32,13 @@ A local installation is also necessary to automatically run these tools before c
 To update the editor tools run the same installation command
 
 ```sh
-npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
+npx install-peerdeps editor-tools-
+
+
+
+
+
+--global #global installation (requires privileges: sudo or administrator terminal)
 npx install-peerdeps editor-tools-scalefast # local installation
 ```
 
@@ -60,8 +66,26 @@ Should use [syntastic](https://github.com/vim-syntastic/syntastic) but not teste
 
 __NOT TESTED YET__
 
-### Usage
+## Usage
+
+### Eslint
 
 To use this package in a project we need to create a [eslint configuration file](https://eslint.org/docs/user-guide/configuring) in the project path or point our IDE extension to the configuration file.
 
 We include a sample .eslintrc configuration file in root of this package. Our configuration extends [eslint-config-scalefast](https://www.npmjs.com/package/eslint-config-scalefast) and will inherit all the rules defined in that package. Specific .eslintrc files per project are desirable so certain rules can be adapted to each project.
+
+### Stylelint
+
+## Contributing
+
+This package aims to automatize installing and configuring any npm tool we want to integrate with different IDEs. This should simplify using editor extensions and having a unified configuration.
+
+It's important that the tools can be adapted to different projects, the preferred way to achieve this is to include standard linter configuration (i.e. .eslintrc) files in each repository. This allows us to grant exceptions to general rules for specific projects and set specific settings and rules that don't apply to all the code. These files must extend our generic configuration using the extend features provided by the different linters.
+
+A default configuration file for each tool is included in this package root directory, these files should be used as a template to create each project configurations and can be used directly for projects that don't have a specific configuration yet. Most editor extensions allow to specify a hardcoded configuration file instead of auto-detecting the project specific file.
+
+To add new tools to this package it's recommended to find out if they have the following set of features:
+
+* Can be integrated with our CI and development machines
+* Have good support across different editors requiring minimal manual configuration
+* Are extensible and can be adapted to our use case
