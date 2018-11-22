@@ -6,7 +6,7 @@ Tools that help developing code in Scalefast and are easy can be integrated in S
 
 In this first versions it only includes the eslint linter.
 
-Installation:
+## Installation:
 
 ```sh
 npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
@@ -27,6 +27,17 @@ If you are interested in a local installation it may be more helpful to add the 
 
 A local installation is also necessary to automatically run these tools before committing or pushing code to ensure the environment is reproducible and identical for all developers.
 
+## Updates
+
+To update the editor tools run the same installation command
+
+```sh
+npx install-peerdeps editor-tools-scalefast --global #global installation (requires privileges: sudo or administrator terminal)
+npx install-peerdeps editor-tools-scalefast # local installation
+```
+
+It's also possible to update each tool separately running `npm update <package-name>` but the npx command will ensure that new dependencies are installed.
+
 ## Test editor configuration
 
 ### VS Code
@@ -44,6 +55,10 @@ Install the `linter` and `linter-eslint` package.
 ### Vim
 
 Should use [syntastic](https://github.com/vim-syntastic/syntastic) but not tested yet
+
+### PhpStorm
+
+__NOT TESTED YET__
 
 ### Usage
 
