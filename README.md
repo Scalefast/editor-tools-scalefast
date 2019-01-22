@@ -31,7 +31,7 @@ A local installation is also necessary to automatically run these tools before c
 
 ### VS Code
 
-Install the ESLint (dbaeumer.vscode-eslint) extension.
+Install the ESLint (dbaeumer.vscode-eslint) and stylelint (shinnn.stylelint) extensions.
 
 ### Sublime
 
@@ -39,7 +39,7 @@ Install `SublimeLinter`, `SublimeLinter-eslint` and `SublimeLinter-stylelint` ex
 
 ### Atom
 
-Install the `linter` and `linter-eslint` package.
+Install the `linter` and `linter-eslint` package. Not tested with stylelint.
 
 ### Vim
 
