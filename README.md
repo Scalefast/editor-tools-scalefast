@@ -35,7 +35,7 @@ Install the ESLint (dbaeumer.vscode-eslint) extension.
 
 ### Sublime
 
-__NOT TESTED YET__ Install the `SublimeLinter` and `SublimeLinter-eslint` extensions.
+Install `SublimeLinter`, `SublimeLinter-eslint` and `SublimeLinter-stylelint` extensions.
 
 ### Atom
 
